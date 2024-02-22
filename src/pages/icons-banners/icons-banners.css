@@ -1,0 +1,39 @@
+.icons_banners_items {
+  display: flex;
+  align-items: start;
+  gap: 180px;
+  margin-top: 34px;
+  margin-bottom: 60px;
+}
+.icons_banners_items .add_icons button {
+  width: 224px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.icons_banners_it {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.icons_banners_it p {
+  width: 120px;
+}
+.icons_banners_it svg {
+  cursor: pointer;
+}
+.icons_banners_it input {
+  width: 300px;
+  height: 44px;
+  box-sizing: border-box;
+  /* button */
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+}
+
+.icons_banners_it .save_btn button {
+    width: 130px;
+height: 76px;
+}
+.add_del_banner .add_mini_header_item_title p {
+    width: 60px;
+}

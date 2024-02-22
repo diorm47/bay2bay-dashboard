@@ -1,0 +1,114 @@
+.shops_page {
+  padding: 32px 44px;
+}
+.add_shop_btn {
+  cursor: pointer;
+  margin-bottom: 26px;
+}
+.name_shop_input {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 34px;
+}
+.name_shop_input p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.name_shop_input input {
+  width: 418px;
+  height: 44px;
+  box-sizing: border-box;
+  /* button */
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  text-indent: 10px;
+}
+
+.name_shop_input .save_btn button {
+  width: 228px;
+  height: 44px;
+}
+.shops_page_list_title h4 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.shops_page_list_item {
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 116, 250);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+.save_btn .shops_page_list_item_name_shop {
+  box-sizing: border-box;
+  border: 1px solid rgb(47, 116, 250);
+  border-radius: 10px;
+  width: 214px;
+  height: 42px;
+  background: rgb(47, 116, 250);
+}
+.shops_page_list_item_desc p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15.01px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.shops_page_list_item_desc span {
+  color: rgb(209, 209, 209);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.shops_page_list_item_pass {
+  width: 185px;
+  height: 44px;
+  box-sizing: border-box;
+  /* button */
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+}
+
+.edit_btn {
+    box-sizing: border-box;
+border: 1px solid rgb(47, 116, 250);
+border-radius: 5px;
+width: 187px;
+height: 44px;
+background: transparent;
+color: rgb(47, 116, 250);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+}
+.shops_page_list_item_actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.shops_page_list_item {
+    margin-bottom: 10px;
+}

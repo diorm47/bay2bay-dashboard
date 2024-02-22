@@ -1,0 +1,119 @@
+.ads_page .page_title {
+  padding: 36px 0 0 40px;
+  margin-bottom: 28px;
+}
+.ads_page_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 54px 20px 40px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.ads_page_link:hover {
+  transition: all 0.4s ease;
+  background: rgb(238, 242, 255);
+}
+.ads_page_link h3 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.add_mini_header {
+  margin-top: 40px;
+}
+.add_mini_header_item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+.add_mini_header_item_title p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 160px;
+}
+
+.add_mini_header_item_upload svg {
+  cursor: pointer;
+}
+.add_mini_header_item span {
+  color: rgb(186, 186, 186);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.add_mini_header_item_input input {
+  box-sizing: border-box;
+  /* button */
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  width: 488px;
+  height: 44px;
+}
+.add_mini_header_item_radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add_mini_header_item_radio input {
+  box-sizing: border-box;
+  border: 1px solid rgb(58, 100, 250);
+  border-radius: 8.5px;
+  width: 17px;
+  height: 17px;
+}
+
+.add_mini_header_item_wrapper {
+  margin-bottom: 24px;
+}
+.ads_save_btn button {
+  width: 254px;
+  height: 44px;
+  margin-left: 185px;
+}
+.add_mini_header_item_select select {
+  box-sizing: border-box;
+  /* button */
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 10px;
+  width: 488px;
+  height: 44px;
+  padding-left: 11px;
+  cursor: pointer;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.sdfbg {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-left: 185px;
+  margin-bottom: 30px;
+}
+.sdfbg input {
+  border-radius: 3px;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  background: rgb(47, 116, 250);
+}

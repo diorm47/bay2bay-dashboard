@@ -1,0 +1,27 @@
+.sidebar_wrapper {
+  border-radius: 10px;
+  width: 280px;
+  background: rgb(255, 255, 255);
+  padding: 32px 18px;
+}
+
+.sidebar_wrapper h3 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.sidebar_links p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
