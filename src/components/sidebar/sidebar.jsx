@@ -7,7 +7,7 @@ function Sidebar() {
     <div className="sidebar_wrapper">
       <h3>Панель администратора</h3>
       <div className="sidebar_links">
-        <NavLink to="">
+        <NavLink to="/settings">
           <p>Настройки</p>
         </NavLink>
         <NavLink to="/shops">

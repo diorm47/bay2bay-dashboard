@@ -10,6 +10,7 @@ import IconsBanners from "./pages/icons-banners/icons-banners";
 import UsersPage from "./pages/users-page/users-page";
 import NodePage from "./pages/nodes-page/nodes-page";
 import { namePage } from "./components/name-page";
+import SettingsPage from "./pages/settings-page/settings-page";
 
 function App() {
   const location = useLocation();
@@ -24,7 +25,8 @@ function App() {
           <Sidebar />
           <div className="page_content_pages">
             <Routes>
-              {/* <Route path="/" element={<CommandPage />} /> */}
+              <Route path="/" element={<SettingsPage />} />
+              <Route path="/settings" element={<SettingsPage />} />
               <Route path="/team" element={<CommandPage />} />
               <Route path="/shops" element={<ShopsPage />} />
               <Route path="/ads" element={<AdsPage />} />

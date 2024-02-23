@@ -18,5 +18,11 @@ export function namePage(path) {
   }
   if (path == "/nodes") {
     return "Узлы";
+  } 
+  if (path == "/settings") {
+    return "Настройки";
+  }
+  if (path == "/") {
+    return "Настройки";
   }
 }
