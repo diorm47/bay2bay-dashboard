@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./settings-page.css";
 import { ReactComponent as Next } from "../../assets/icons/settings-next.svg";
+import { ReactComponent as Delete } from "../../assets/icons/delete.svg";
+import { ReactComponent as AddNavEl } from "../../assets/icons/add-nav-el.svg";
+import Switch from "../../components/switch/switch";
 
 function SettingsPage() {
   const [modal, setModal] = useState(false);
@@ -310,6 +313,224 @@ function SettingsPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+
+      {modal == 6 ? (
+        <div className="modal_wrapper settings_page_modal public_navigation_modal">
+          <div className="modal_wrapper_title">
+            <h3>публичная навигация</h3>
+            <div className="add_nav_elements">
+              <AddNavEl />
+            </div>
+          </div>
+          <div className="public_navigation">
+            <h2>Header</h2>
+          </div>
+          <div className="public_navigation_title">
+            <p>Главная</p>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Новые сообщения</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Новые сообщения профилей</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Мои темы</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Темы с моими сообщениями</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Темы без ответов</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Отслеживаемые темы</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_title">
+            <p>Магазины</p>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_title">
+            <p>Записки</p>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation">
+            <h2>Footer</h2>
+          </div>
+          <div className="public_navigation_title">
+            <p>Покупателям</p>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_title">
+            <p>Магазинам</p>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+
+          <div className="public_navigation_title">
+            <p>Информация</p>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch/>
+              <Delete/>
+            </div>
+          </div>
+          <span>Отображение всех элементов</span>
+          <div className="save_btn public_nav_btn">
+            <button>Сохранить</button>
           </div>
         </div>
       ) : (

@@ -203,3 +203,84 @@
   gap: 6px;
   margin-bottom: 11px;
 }
+
+.modal_wrapper_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add_nav_elements svg {
+  cursor: pointer;
+}
+.public_navigation {
+  margin-top: 30px;
+}
+.public_navigation h2 {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.public_navigation_title {
+  border-radius: 10px;
+  height: 50px;
+  background: rgb(238, 242, 255);
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  margin-bottom: 10px;
+}
+.public_navigation_title p {
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.public_navigation_item {
+  padding: 0px 20px 12px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.public_navigation_item_link p {
+  color: rgb(58, 100, 250);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.public_navigation_item_actions {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+.public_navigation_item_actions svg {
+  cursor: pointer;
+}
+.public_navigation_title {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+.public_navigation_modal span {
+  color: rgb(120, 120, 120);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+.public_nav_btn {
+  margin-top: 30px;
+}

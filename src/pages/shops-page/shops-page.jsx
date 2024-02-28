@@ -5,7 +5,7 @@ import { ReactComponent as UploadBtn } from "../../assets/icons/upload.svg";
 import { ReactComponent as Logotype } from "../../assets/icons/logo.svg";
 
 function ShopsPage() {
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
 
   return (
     <>
