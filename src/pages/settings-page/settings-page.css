@@ -284,3 +284,32 @@ text-align: left;
 .public_nav_btn {
   margin-top: 30px;
 }
+.public_nav_add {
+  margin-top: 90px;
+}
+.user_name_count_box_item_add_pub {
+  width: 260px;
+}
+.user_name_count_box_item_add_pub span {
+ width: 180px;
+ text-align: right;
+padding-right: 14px;
+}
+.add_pub_nav_radios {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+.add_pub_nav_radios div {
+  display: flex;
+  align-items: center;
+}
+.add_pub_nav_radios input {
+  box-sizing: border-box;
+border: 1px solid rgb(58, 100, 250);
+border-radius: 8.5px;
+width: 17px;
+height: 17px;
+margin-right: 8px;
+}

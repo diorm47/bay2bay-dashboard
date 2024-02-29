@@ -323,7 +323,7 @@ function SettingsPage() {
         <div className="modal_wrapper settings_page_modal public_navigation_modal">
           <div className="modal_wrapper_title">
             <h3>публичная навигация</h3>
-            <div className="add_nav_elements">
+            <div className="add_nav_elements" onClick={() => setModal(8)}>
               <AddNavEl />
             </div>
           </div>
@@ -339,8 +339,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -349,8 +349,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -359,8 +359,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -369,8 +369,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -379,8 +379,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -389,24 +389,24 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_title">
             <p>Магазины</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_title">
             <p>Записки</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation">
@@ -416,8 +416,8 @@ function SettingsPage() {
             <p>Покупателям</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -426,8 +426,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -436,8 +436,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -446,16 +446,16 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_title">
             <p>Магазинам</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
 
@@ -465,8 +465,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -475,8 +475,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -485,8 +485,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
 
@@ -494,8 +494,8 @@ function SettingsPage() {
             <p>Информация</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -504,8 +504,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -514,8 +514,8 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <div className="public_navigation_item">
@@ -524,13 +524,81 @@ function SettingsPage() {
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
-              <Switch/>
-              <Delete/>
+              <Switch />
+              <Delete />
             </div>
           </div>
           <span>Отображение всех элементов</span>
           <div className="save_btn public_nav_btn">
             <button>Сохранить</button>
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+
+      {modal == 8 ? (
+        <div className="modal_wrapper settings_page_modal">
+          <div className="modal_wrapper_title">
+            <h3>публичная навигация / добавление</h3>
+          </div>
+          <div className="public_nav_add">
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Название:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <input type="text" />
+              </div>
+            </div>
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Порядок отображения:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <div class="user_name_count_box_item user_name_count_box_item_add_pub">
+                  <span>13</span>
+                  <p class="brr">+</p>
+                  <p>-</p>
+                </div>
+              </div>
+            </div>
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Тип:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <div class="pref_checks">
+                  <input type="checkbox" name="" id="" checked="" />
+                  <p>Родительский узел</p>
+                </div>
+                <div class="pref_checks">
+                  <input type="checkbox" name="" id="" checked="" />
+                  <p>Дочерний узел</p>
+                </div>
+                <div className="add_pub_nav_radios">
+                  <div>
+                    <input type="radio" name="" id="" />
+                    <p>Header</p>
+                  </div>
+                  <div>
+                    <input type="radio" name="" id="" />
+                    <p>Footer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Ссылка:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <input type="text" />
+              </div>
+            </div>
+            <div className="save_btn">
+              <button>Сохранить</button>
+            </div>
           </div>
         </div>
       ) : (
