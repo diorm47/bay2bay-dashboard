@@ -59,8 +59,10 @@ function SettingsPage() {
       {modal == 1 ? (
         <div className="modal_wrapper settings_page_modal">
           <div className="modal_wrapper_title">
-            <h3>Открытие и закрытие форума</h3>
+           <div>
+           <h3>Открытие и закрытие форума</h3>
             <p>Здесь можно открывать и закрывать форум</p>
+           </div>
           </div>
           <div className="open_close_forum">
             <div className="open_close_forum_left">
@@ -166,11 +168,13 @@ function SettingsPage() {
       {modal == 3 ? (
         <div className="modal_wrapper settings_page_modal">
           <div className="modal_wrapper_title">
-            <h3>Автоматический цензор</h3>
+        <div>
+        <h3>Автоматический цензор</h3>
             <p>
               На текст, созданный пользователем, будут распространяться правила
               цензуры, которые вы определяете здесь.
             </p>
+        </div>
           </div>
           <div className="main_settings">
             <div class="nodes_page_content_item ais">
@@ -312,6 +316,36 @@ function SettingsPage() {
                   <button>Сохранить</button>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+
+      {modal == 5 ? (
+        <div className="modal_wrapper settings_page_modal settings_tag">
+          <div className="modal_wrapper_title">
+            <h3>Теги / создание</h3>
+          </div>
+
+          <div class="nodes_page_content_item ">
+            <div class="nodes_page_content_item_left">
+              <p>Тег</p>
+            </div>
+            <div class="nodes_page_content_item_right">
+              <input type="text" />
+            </div>
+          </div>
+          
+          <div class="nodes_page_content_item ">
+            <div class="nodes_page_content_item_left">
+            
+            </div>
+            <div class="nodes_page_content_item_right">
+            <div className="save_btn">
+              <button>Сохранить</button>
+            </div>
             </div>
           </div>
         </div>

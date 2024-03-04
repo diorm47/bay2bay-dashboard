@@ -315,3 +315,10 @@ width: 17px;
 height: 17px;
 margin-right: 8px;
 }
+.settings_tag .modal_wrapper_title {
+  margin-bottom: 30px;
+}
+
+.settings_page_modal {
+  padding: 36px 40px !important;
+}
