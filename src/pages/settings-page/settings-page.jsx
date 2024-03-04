@@ -331,11 +331,11 @@ function SettingsPage() {
             <h2>Header</h2>
           </div>
           <div className="public_navigation_title">
-            <p>Главная</p>
+            <p onClick={() => setModal(9)}>Главная</p>
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Новые сообщения</p>
+              <p onClick={() => setModal(9)}>Новые сообщения</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -345,7 +345,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Новые сообщения профилей</p>
+              <p onClick={() => setModal(9)}>Новые сообщения профилей</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -355,7 +355,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Мои темы</p>
+              <p onClick={() => setModal(9)}>Мои темы</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -365,7 +365,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Темы с моими сообщениями</p>
+              <p onClick={() => setModal(9)}>Темы с моими сообщениями</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -375,7 +375,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Темы без ответов</p>
+              <p onClick={() => setModal(9)}>Темы без ответов</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -385,7 +385,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Отслеживаемые темы</p>
+              <p onClick={() => setModal(9)}>Отслеживаемые темы</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -394,7 +394,7 @@ function SettingsPage() {
             </div>
           </div>
           <div className="public_navigation_title">
-            <p>Магазины</p>
+            <p onClick={() => setModal(9)}>Магазины</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
               <Switch />
@@ -402,7 +402,7 @@ function SettingsPage() {
             </div>
           </div>
           <div className="public_navigation_title">
-            <p>Записки</p>
+            <p onClick={() => setModal(9)}>Записки</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
               <Switch />
@@ -413,7 +413,7 @@ function SettingsPage() {
             <h2>Footer</h2>
           </div>
           <div className="public_navigation_title">
-            <p>Покупателям</p>
+            <p onClick={() => setModal(9)}>Покупателям</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
               <Switch />
@@ -422,17 +422,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Название</p>
-            </div>
-            <div className="public_navigation_item_actions">
-              <p>10</p>
-              <Switch />
-              <Delete />
-            </div>
-          </div>
-          <div className="public_navigation_item">
-            <div className="public_navigation_item_link">
-              <p>Название</p>
+              <p onClick={() => setModal(9)}>Название</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -442,7 +432,17 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Название</p>
+              <p onClick={() => setModal(9)}>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch />
+              <Delete />
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p onClick={() => setModal(9)}>Название</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -451,7 +451,7 @@ function SettingsPage() {
             </div>
           </div>
           <div className="public_navigation_title">
-            <p>Магазинам</p>
+            <p onClick={() => setModal(9)}>Магазинам</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
               <Switch />
@@ -461,7 +461,7 @@ function SettingsPage() {
 
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Название</p>
+              <p onClick={() => setModal(9)}>Название</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -471,7 +471,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Название</p>
+              <p onClick={() => setModal(9)}>Название</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -481,7 +481,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Название</p>
+              <p onClick={() => setModal(9)}>Название</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -491,7 +491,7 @@ function SettingsPage() {
           </div>
 
           <div className="public_navigation_title">
-            <p>Информация</p>
+            <p onClick={() => setModal(9)}>Информация</p>
             <div className="public_navigation_item_actions">
               <p>10</p>
               <Switch />
@@ -500,17 +500,7 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Название</p>
-            </div>
-            <div className="public_navigation_item_actions">
-              <p>10</p>
-              <Switch />
-              <Delete />
-            </div>
-          </div>
-          <div className="public_navigation_item">
-            <div className="public_navigation_item_link">
-              <p>Название</p>
+              <p onClick={() => setModal(9)}>Название</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -520,7 +510,17 @@ function SettingsPage() {
           </div>
           <div className="public_navigation_item">
             <div className="public_navigation_item_link">
-              <p>Название</p>
+              <p onClick={() => setModal(9)}>Название</p>
+            </div>
+            <div className="public_navigation_item_actions">
+              <p>10</p>
+              <Switch />
+              <Delete />
+            </div>
+          </div>
+          <div className="public_navigation_item">
+            <div className="public_navigation_item_link">
+              <p onClick={() => setModal(9)}>Название</p>
             </div>
             <div className="public_navigation_item_actions">
               <p>10</p>
@@ -541,6 +541,73 @@ function SettingsPage() {
         <div className="modal_wrapper settings_page_modal">
           <div className="modal_wrapper_title">
             <h3>публичная навигация / добавление</h3>
+          </div>
+          <div className="public_nav_add">
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Название:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <input type="text" />
+              </div>
+            </div>
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Порядок отображения:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <div class="user_name_count_box_item user_name_count_box_item_add_pub">
+                  <span>13</span>
+                  <p class="brr">+</p>
+                  <p>-</p>
+                </div>
+              </div>
+            </div>
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Тип:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <div class="pref_checks">
+                  <input type="checkbox" name="" id="" checked="" />
+                  <p>Родительский узел</p>
+                </div>
+                <div class="pref_checks">
+                  <input type="checkbox" name="" id="" checked="" />
+                  <p>Дочерний узел</p>
+                </div>
+                <div className="add_pub_nav_radios">
+                  <div>
+                    <input type="radio" name="" id="" />
+                    <p>Header</p>
+                  </div>
+                  <div>
+                    <input type="radio" name="" id="" />
+                    <p>Footer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nodes_page_content_item ">
+              <div class="nodes_page_content_item_left">
+                <p>Ссылка:</p>
+              </div>
+              <div class="nodes_page_content_item_right">
+                <input type="text" />
+              </div>
+            </div>
+            <div className="save_btn">
+              <button>Сохранить</button>
+            </div>
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
+      {modal == 9 ? (
+        <div className="modal_wrapper settings_page_modal">
+          <div className="modal_wrapper_title">
+            <h3>публичная навигация / редактирование</h3>
           </div>
           <div className="public_nav_add">
             <div class="nodes_page_content_item ">

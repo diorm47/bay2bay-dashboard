@@ -241,6 +241,7 @@
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0%;
+  cursor: pointer;
   text-align: left;
 }
 .public_navigation_item {
@@ -257,6 +258,7 @@
   line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
 }
 .public_navigation_item_actions {
   display: flex;

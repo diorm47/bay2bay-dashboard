@@ -377,47 +377,71 @@ function UsersPage() {
           <div className="user_edi_modal">
             <div className="user_edit_item">
               <p>Имя пользователя:</p>
-              <input type="text" />
+              <input type="text" value='Имя пользователя' />
             </div>
             <div className="user_edit_item">
               <p>ID пользователя:</p>
-              <input type="text" />
+              <input type="text" value='ID пользователя' />
             </div>
             <div className="user_edit_item">
               <p>Пароль пользователя:</p>
-              <input type="text" />
+              <input type="text" value='Пароль пользователя' />
             </div>
             <div className="user_edit_item">
               <p>Депозит пользователя:</p>
-              <input type="text" />
+              <input type="text" value='Депозит пользователя' />
             </div>
             <div className="user_edit_item">
               <p>Кол-во заказов:</p>
-              <input type="text" />
+              <input type="text" value='Кол-во заказов' />
             </div>
             <div className="user_edit_item">
               <p>Нестандартное звание пользователя:</p>
-              <input type="text" />
+              <input type="text" value='Нестандартное звание пользователя'/>
             </div>
             <div className="user_edit_item">
               <p>CSS цвет юзернейма:</p>
-              <input type="text" />
+              <input type="text" value='CSS цвет юзернейма' />
             </div>
             <div className="user_edit_item">
               <p>Выбор значка:</p>
-              <input type="text" value="Выбор значка" />
+              <div class="shop_modal_select user_modal_select">
+                <div class="shop_modal_select_wrapper">
+                  <p>Название значка</p>
+                  <p>Название значка</p>
+                  <p className="active_select">Название значка</p>
+                  <p>Название значка</p>
+                </div>
+                <h2>
+                  Для выбора нескольких <br /> вариантов удерживайте Ctrl
+                </h2>
+              </div>
             </div>
             <div className="user_edit_item">
               <p>Выбор баннера:</p>
-              <input type="text" value="Выбор баннера:" />
+              <div class="shop_modal_select user_modal_select">
+                <div class="shop_modal_select_wrapper">
+                  <p>Название баннера</p>
+                  <p>Название баннера</p>
+                  <p className="active_select">Название баннера</p>
+                  <p>Название баннера</p>
+                </div>
+                <h2>
+                  Для выбора нескольких <br /> вариантов удерживайте Ctrl
+                </h2>
+              </div>
             </div>
             <div className="user_edit_item">
               <p>Уровень пользователя:</p>
-              <input type="text" value="Выбор значка" />
+              <select name="" id="">
+                <option value="">Уровень</option>
+                <option value="">Уровень</option>
+                <option value="">Уровень</option>
+              </select>
             </div>
             <div className="user_edit_item ais">
               <p>Заметка:</p>
-              <textarea value="Выбор баннера:"></textarea>
+              <textarea value="Заметка"></textarea>
             </div>
           </div>
           <div className="save_btn">
