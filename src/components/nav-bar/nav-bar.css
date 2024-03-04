@@ -1,3 +1,8 @@
 nav {
-    padding: 30px 0;
+  padding: 30px 0;
+}
+@media only screen and (max-width: 1550px) {
+  nav {
+    padding: 30px 20px;
+  }
 }

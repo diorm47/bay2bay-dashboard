@@ -23,7 +23,7 @@ function Sidebar() {
         <NavLink to="/nodes">
           <p>Узлы</p>
         </NavLink>
-        <NavLink to="/users">
+        <NavLink to="/user-level">
           <p>Уровни пользователей</p>
         </NavLink>
         <NavLink to="/users">

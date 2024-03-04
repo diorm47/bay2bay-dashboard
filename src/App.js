@@ -11,6 +11,7 @@ import UsersPage from "./pages/users-page/users-page";
 import NodePage from "./pages/nodes-page/nodes-page";
 import { namePage } from "./components/name-page";
 import SettingsPage from "./pages/settings-page/settings-page";
+import UserLevel from "./pages/user-level/user-level";
 
 function App() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function App() {
               <Route path="/icons-banners" element={<IconsBanners />} />
               <Route path="/users" element={<UsersPage />} />
               <Route path="/nodes" element={<NodePage />} />
+              <Route path="/user-level" element={<UserLevel />} />
             </Routes>
           </div>
         </div>

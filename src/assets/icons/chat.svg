@@ -1,0 +1,14 @@
+<svg width="29.000000" height="29.000000" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_7182">
+			<rect id="gridicons:chat" width="29.000000" height="29.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="gridicons:chat" width="29.000000" height="29.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_7182)">
+		<path id="Vector" d="M3.625 14.5C2.2959 14.5 1.2085 13.4121 1.2085 12.083L1.2085 6.04199C1.2085 4.71289 2.2959 3.625 3.625 3.625L13.292 3.625C14.6211 3.625 15.7085 4.71289 15.7085 6.04199L15.7085 12.083C15.7085 13.4121 14.6211 14.5 13.292 14.5L10.875 14.5L10.875 18.125L7.25 14.5L3.625 14.5ZM25.375 21.75C26.7041 21.75 27.792 20.6621 27.792 19.333L27.792 13.292C27.792 11.9629 26.7041 10.875 25.375 10.875L18.125 10.875L18.125 12.083C18.125 14.7412 15.9502 16.917 13.292 16.917L13.292 19.333C13.292 20.6621 14.3794 21.75 15.7085 21.75L18.125 21.75L18.125 25.375L21.75 21.75L25.375 21.75Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

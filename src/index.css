@@ -44,6 +44,12 @@ a {
 input,
 textarea {
   outline: none;
+  transition: all 0.4s ease;
+
+}
+input[type='text']:focus, textarea:focus {
+  border: 1px solid rgb(47, 116, 250);
+  transition: all 0.4s ease;
 }
 button {
   cursor: pointer;
@@ -102,4 +108,10 @@ svg {
 svg:hover {
   transition: all 0.4s ease;
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 1550px) {
+  .page_content, nav {
+    padding: 0 20px;
+  }
 }

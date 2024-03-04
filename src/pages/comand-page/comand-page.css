@@ -1,7 +1,7 @@
-.team_page {
-  padding: 36px 40px;
+.team_page_wrapper {
+  background: #eef2ff;
 }
-.page_title h1 {
+.team_page_title h2 {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
   font-size: 20px;
@@ -10,130 +10,86 @@
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
-}
-.team_page_iputs {
-  display: flex;
-  margin-top: 43px;
-  align-items: flex-end;
-  gap: 20px;
-  margin-bottom: 40px;
-}
-.team_page_input p {
-  color: rgb(0, 0, 0);
-  font-family: Open Sans;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 12px;
-}
-.team_page_input input {
-  box-sizing: border-box;
-  /* button */
-  border: 1px solid rgb(228, 228, 228);
-  border-radius: 10px;
-  width: 170px;
-  height: 44px;
-  text-indent: 10px;
+  margin-bottom: 17px;
 }
 
-.team_page_actions {
+.add_moder svg {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.team_list_item_left {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding-bottom: 13px;
+  gap: 11px;
 }
-.team_page_actions svg {
-  cursor: pointer;
-}
-.save_btn button {
-  border-radius: 5px;
-  width: 168px;
-  height: 44px;
-  color: rgb(255, 255, 255);
-  font-family: Open Sans;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0%;
-
-  background: rgb(47, 116, 250);
-}
-
-.overlay {
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  z-index: 11;
-  left: 0;
-  top: 0;
-  background: #00000044;
-}
-.modal_wrapper {
-  width: 100%;
-  position: relative;
-  top: 0;
-  z-index: 111;
-  border-radius: 10px;
-  width: 1223px;
-  padding: 76px 90px 40px;
-  background: rgb(255, 255, 255);
-}
-
-.modal_wrapper_title h3 {
+.team_list_item_left p {
   color: rgb(0, 0, 0);
   font-family: Open Sans;
-  font-size: 30px;
+  font-size: 17.01px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.team_list_item_left span {
+  color: rgb(122, 122, 122);
+  font-family: Open Sans;
+  font-size: 10.47px;
   font-weight: 600;
-  line-height: 41px;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 22px;
-}
-.team_page_modal_item p {
-  color: rgb(0, 0, 0);
-  font-family: Open Sans;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 20px;
+  line-height: 14px;
   letter-spacing: 0%;
   text-align: left;
 }
-.team_page_modal_item_inputs {
+.team_list_item_left div {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 10px;
+  flex-direction: column;
 }
-.team_page_modal_item_inputs div {
+.team_list_item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.team_list_item_right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.team_list_item_right button {
+  width: 255px !important;
+  height: 50px !important;
 }
 
-.team_page_modal_item_inputs input[type="radio"] {
-  box-sizing: border-box;
-  border: 1px solid rgb(47, 116, 250);
-  border-radius: 8.5px;
-  width: 17px;
-  height: 17px;
+.team_page_modal_block_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 530px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
-.team_page_modal_item_inputs input[type="text"] {
-  box-sizing: border-box;
-  /* button */
-  border: 1px solid rgb(228, 228, 228);
-  border-radius: 10px;
-  width: 70px;
-  height: 44px;
-  text-indent: 10px;
-}
 
-.team_page_modal_item {
-  margin-bottom: 16px;
+.team_page_modal_block_title h3 {
+  color: rgb(0, 0, 0);
+font-family: Open Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
 }
-.team_page_modal_item_inputs_secondary {
-  flex-direction: column;
-  align-items: start;
+.team_page_modal_block_content {
+  display: none;
+}
+.team_page_modal_block_visible .team_page_modal_block_title svg{
+  transform: rotate(180deg);
+}
+.team_page_modal_block_visible .team_page_modal_block_content {
+  display: block;
+}
+.team_page_modal_block_content {
+  margin-bottom: 50px;
+}
+.team_page_modal_block_visible:nth-child(2) .team_page_modal_block_content {
+  margin: 0;
 }
