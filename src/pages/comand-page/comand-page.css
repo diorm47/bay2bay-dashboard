@@ -71,17 +71,17 @@
 
 .team_page_modal_block_title h3 {
   color: rgb(0, 0, 0);
-font-family: Open Sans;
-font-size: 24px;
-font-weight: 600;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .team_page_modal_block_content {
   display: none;
 }
-.team_page_modal_block_visible .team_page_modal_block_title svg{
+.team_page_modal_block_visible .team_page_modal_block_title svg {
   transform: rotate(180deg);
 }
 .team_page_modal_block_visible .team_page_modal_block_content {
@@ -92,4 +92,71 @@ text-align: left;
 }
 .team_page_modal_block_visible:nth-child(2) .team_page_modal_block_content {
   margin: 0;
+}
+
+.invite_chat_modal {
+  width: 959px;
+  height: 286px;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 1111;
+  top: 50%;
+  left: 50%;
+  margin-left: -480px;
+  padding: 60px 84px;
+  margin-top: -143px;
+  background: rgb(255, 255, 255);
+}
+.invite_chat_modal h3 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 26px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.invite_chat_modal p {
+  color: rgb(47, 116, 250);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 18px;
+}
+.invite_chat_modal_inputs {
+  display: flex;
+  align-items: center;
+}
+.invite_chat_modal_inputs input {
+  border-radius: 5px 5px 0px 0px;
+  width: 496px;
+  height: 71px;
+  border: none;
+  background: rgb(241, 242, 243);
+  border-radius: 10px 10px 0 0;
+  text-indent: 27px;
+  font-family: Open Sans;
+  margin-right: 14px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-bottom: 3px solid rgb(47, 116, 250);
+}
+.invite_chat_modal_inputs .save_btn {
+  width: 281.04px;
+  height: 71px;
+  border-radius: 3px;
+  border: none;
+  background: rgb(47, 116, 250);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+ 
 }

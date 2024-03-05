@@ -6,12 +6,18 @@ import avatar from "../../assets/images/avatar.png";
 
 function CommandPage() {
   const [modal, setModal] = useState(false);
+  const [modalAdd, setModalAdd] = useState(false);
   const [content1, setContent1] = useState(false);
   const [content2, setContent2] = useState(false);
+
+  const closeModals = () => {
+    setModal(false);
+    setModalAdd(false);
+  };
   return (
     <>
-      {modal ? (
-        <div className="overlay" onClick={() => setModal(false)}></div>
+      {modal || modalAdd ? (
+        <div className="overlay" onClick={closeModals}></div>
       ) : (
         ""
       )}
@@ -645,7 +651,7 @@ function CommandPage() {
             <h2>команда сайта</h2>
           </div>
           <div className="add_moder">
-            <AddModer />
+            <AddModer onClick={() => setModalAdd(true)} />
           </div>
           <div className="team_list">
             <div className="team_list_item">
@@ -803,6 +809,20 @@ function CommandPage() {
             </div>
           </div>
         </div>
+      )}
+
+      {modalAdd ? (
+        <div className="invite_chat_modal">
+          <h3>Добавить модератора</h3>
+          <p>ID пользователя</p>
+          <div className="invite_chat_modal_inputs">
+            <input type="text" placeholder="Введите ID пользователя" />
+
+            <button className="save_btn">Добавить</button>
+          </div>
+        </div>
+      ) : (
+        ""
       )}
     </>
   );

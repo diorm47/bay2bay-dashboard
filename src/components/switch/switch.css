@@ -29,11 +29,15 @@
   z-index: 1;
 }
 .switch-on {
-  background: rgba(58, 100, 250, 0.13);
+  background: rgb(58, 100, 250);
 }
 .switch-on::after {
   left: 36px;
   border-radius: 12px;
   left: 24px;
-  background: rgb(58, 100, 250);
+  background: rgb(255, 255, 255);
+}
+
+.asx {
+  width: 168px;
 }

@@ -161,8 +161,8 @@ function UsersPage() {
               </div>
               <button class="edit_btn">Редактировать</button>
               <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
+                <Switch open={true} />
+                <p>Разблокировать</p>
               </div>
             </div>
             <div className="users_list_item">
@@ -175,8 +175,8 @@ function UsersPage() {
               </div>
               <button class="edit_btn">Редактировать</button>
               <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
+                <Switch open={true} />
+                <p>Разблокировать</p>
               </div>
             </div>
             <div className="users_list_item">
@@ -189,8 +189,8 @@ function UsersPage() {
               </div>
               <button class="edit_btn">Редактировать</button>
               <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
+                <Switch open={true} />
+                <p>Разблокировать</p>
               </div>
             </div>
             <div className="users_list_item">
@@ -203,8 +203,8 @@ function UsersPage() {
               </div>
               <button class="edit_btn">Редактировать</button>
               <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
+                <Switch open={true} />
+                <p>Разблокировать</p>
               </div>
             </div>
             <div className="users_list_item">
@@ -217,8 +217,8 @@ function UsersPage() {
               </div>
               <button class="edit_btn">Редактировать</button>
               <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
+                <Switch open={true} />
+                <p>Разблокировать</p>
               </div>
             </div>
             <div className="users_list_item">
@@ -231,8 +231,8 @@ function UsersPage() {
               </div>
               <button class="edit_btn">Редактировать</button>
               <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
+                <Switch open={true} />
+                <p>Разблокировать</p>
               </div>
             </div>
             <div className="users_list_item">
@@ -245,8 +245,8 @@ function UsersPage() {
               </div>
               <button class="edit_btn">Редактировать</button>
               <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
+                <Switch open={true} />
+                <p>Разблокировать</p>
               </div>
             </div>
           </div>
@@ -259,7 +259,7 @@ function UsersPage() {
             <div className="save_btn">
               <button>Подтвердить</button>
             </div>
-            <AddBtn />
+            <div className="asx"></div>
           </div>
           <div className="users_list">
             <div className="users_list_item">
@@ -271,10 +271,9 @@ function UsersPage() {
                 </div>
               </div>
               <button class="edit_btn">Редактировать</button>
-              <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
-              </div>
+              <button class="edit_btn reject_btn">
+                Отклонить активацию и удалить
+              </button>
             </div>
             <div className="users_list_item">
               <div className="users_list_name">
@@ -285,10 +284,9 @@ function UsersPage() {
                 </div>
               </div>
               <button class="edit_btn">Редактировать</button>
-              <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
-              </div>
+              <button class="edit_btn reject_btn">
+                Отклонить активацию и удалить
+              </button>
             </div>
             <div className="users_list_item">
               <div className="users_list_name">
@@ -299,10 +297,9 @@ function UsersPage() {
                 </div>
               </div>
               <button class="edit_btn">Редактировать</button>
-              <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
-              </div>
+              <button class="edit_btn reject_btn">
+                Отклонить активацию и удалить
+              </button>
             </div>
             <div className="users_list_item">
               <div className="users_list_name">
@@ -313,10 +310,9 @@ function UsersPage() {
                 </div>
               </div>
               <button class="edit_btn">Редактировать</button>
-              <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
-              </div>
+              <button class="edit_btn reject_btn">
+                Отклонить активацию и удалить
+              </button>
             </div>
             <div className="users_list_item">
               <div className="users_list_name">
@@ -327,10 +323,9 @@ function UsersPage() {
                 </div>
               </div>
               <button class="edit_btn">Редактировать</button>
-              <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
-              </div>
+              <button class="edit_btn reject_btn">
+                Отклонить активацию и удалить
+              </button>
             </div>
             <div className="users_list_item">
               <div className="users_list_name">
@@ -341,10 +336,9 @@ function UsersPage() {
                 </div>
               </div>
               <button class="edit_btn">Редактировать</button>
-              <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
-              </div>
+              <button class="edit_btn reject_btn">
+                Отклонить активацию и удалить
+              </button>
             </div>
             <div className="users_list_item">
               <div className="users_list_name">
@@ -355,10 +349,9 @@ function UsersPage() {
                 </div>
               </div>
               <button class="edit_btn">Редактировать</button>
-              <div className="switch">
-                <Switch />
-                <p>Заблокировать</p>
-              </div>
+              <button class="edit_btn reject_btn">
+                Отклонить активацию и удалить
+              </button>
             </div>
           </div>
           <div className="save_btn">
@@ -377,31 +370,31 @@ function UsersPage() {
           <div className="user_edi_modal">
             <div className="user_edit_item">
               <p>Имя пользователя:</p>
-              <input type="text" value='Имя пользователя' />
+              <input type="text" value="Имя пользователя" />
             </div>
             <div className="user_edit_item">
               <p>ID пользователя:</p>
-              <input type="text" value='ID пользователя' />
+              <input type="text" value="ID пользователя" />
             </div>
             <div className="user_edit_item">
               <p>Пароль пользователя:</p>
-              <input type="text" value='Пароль пользователя' />
+              <input type="text" value="Пароль пользователя" />
             </div>
             <div className="user_edit_item">
               <p>Депозит пользователя:</p>
-              <input type="text" value='Депозит пользователя' />
+              <input type="text" value="Депозит пользователя" />
             </div>
             <div className="user_edit_item">
               <p>Кол-во заказов:</p>
-              <input type="text" value='Кол-во заказов' />
+              <input type="text" value="Кол-во заказов" />
             </div>
             <div className="user_edit_item">
               <p>Нестандартное звание пользователя:</p>
-              <input type="text" value='Нестандартное звание пользователя'/>
+              <input type="text" value="Нестандартное звание пользователя" />
             </div>
             <div className="user_edit_item">
               <p>CSS цвет юзернейма:</p>
-              <input type="text" value='CSS цвет юзернейма' />
+              <input type="text" value="CSS цвет юзернейма" />
             </div>
             <div className="user_edit_item">
               <p>Выбор значка:</p>
